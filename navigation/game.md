@@ -32,16 +32,19 @@ image: /images/platformer/backgrounds/home.png
 <!--Audio for when it hits top of platform -->
   <audio id ="stomp" src="{{site.baseurl}}/assets/audio/stomp2-93279.mp3" preload="auto"></audio>
 
-  <!--Audo for when it hits the sides of platform -->    
+  <!--Audio for when it hits the sides of platform -->    
   <audio id = "boing" src ="{{site.baseurl}}/assets/audio/boing-101318.mp3" preload="auto"></audio>
 
-  <!--Audo for flushing -->    
+  <!--Audio for flushing -->    
   <audio id = "flush" src ="{{site.baseurl}}/assets/audio/toilet-flushing.mp3" preload="auto"></audio>
   
-  <!--Audo for laser -->    
+  <!--Audio for laser -->    
   <audio id = "laserSound" src ="{{site.baseurl}}/assets/audio/laser.mp3" preload="auto"></audio>
 
   <audio id = "laserCharge" src ="{{site.baseurl}}/assets/audio/charging-laser.mp3" preload="auto"></audio>
+
+  <!--Audio for Shark -->
+   <audio id = "SharkAudio" src ="{{site.baseurl}}/assets/audio/Shark.mp3" preload="auto"></audio>
   
   
   <!-- Wrap both the controls and gameplay in a container div -->
